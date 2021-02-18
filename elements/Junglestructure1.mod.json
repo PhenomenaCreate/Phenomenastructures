@@ -1,0 +1,30 @@
+{
+  "_fv": 15,
+  "_type": "structure",
+  "definition": {
+    "structure": "junglestructure1",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 4004,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -1,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.FLOWING_WATER"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "jungle"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}
